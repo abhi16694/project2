@@ -1,0 +1,31 @@
+<nav class="navbar navbar-inverse" style="margin-bottom: 0px;">
+
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#/" style="padding-top: 15px"><b>E-Commerse App</b></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+  
+        <li><a href="#/dashboard"><span></span>Dashboard</a></li>
+        <li><a href="#/cart"><span></span>Cart</a></li>
+        <li><a href="#/admin/create"><span></span>CRUD Operations(for Admin only)</a></li>
+        <li><a href="./api/v1/users/logout"><span></span>Logout</a></li>
+      </ul>
+    </div>
+  </div>
+  
+
+</nav>
+
+	<h2 align="center"> Your order for <strong>Rs.{{myCart.totalPrice}}</strong> is under process...<br>
+	<strong>Note:</strong>While in process it will not be removed from Cart...Once done, we will send  order confirmation to your Email-Id and only then it will be removed from your cart.<br><br><br>
+	<strong>Happy Shopping</strong> <h2>
+		<br><br>
+
+		<a href="#/dashboard" class="btn btn-warning"><i class="fa fa-angle-left"></i>Check some of our other products also..</a></td>
