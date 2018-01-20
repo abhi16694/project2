@@ -13,5 +13,7 @@
     "morgan": "^1.7.0",
     "nodemailer": "^4.0.1",
     "shortid": "^2.2.8"
-  }
+  },
+  "repository":"https://github.com/abhi16694/project2.git",
+  "license" : "MIT"
 }
