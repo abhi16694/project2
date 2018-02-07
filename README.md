@@ -1,5 +1,7 @@
 # Project 2
 
+# Note: Now it has been taken down from the hosted site but you can still go through my code and clone it locally to run it.
+
 ## AWS public DNS
 
 [ec2-54-255-247-29.ap-southeast-1.compute.amazonaws.com](http://ec2-54-255-247-29.ap-southeast-1.compute.amazonaws.com "E-Commerce REST API") 
